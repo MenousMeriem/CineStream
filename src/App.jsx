@@ -3,6 +3,8 @@
 import Layout from './Components/Layout/Layout.jsx';
 import Accueil from './Pages/Accueil.jsx' ;
 import Description from './Pages/Description.jsx';
+import Film from './Pages/Film.jsx'
+
 import { 
   createBrowserRouter, 
   createRoutesFromElements, 
@@ -15,7 +17,8 @@ const router = createBrowserRouter(
   createRoutesFromElements(
       <Route path="/" element={<Layout/>}>
         <Route index element={<Accueil/>}/>
-        <Route path='Description' element={<Description/>}/>
+        <Route path='Description/:movie' element={<Description/>}/>
+        <Route path='Film' element={<Film/>}/>
       </Route >
       
 ));

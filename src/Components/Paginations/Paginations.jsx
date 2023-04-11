@@ -3,7 +3,7 @@ import React from 'react'
 
 const Pagination = () => {
     return ( 
-        <div class="flex justify-center">
+        <div className="flex justify-center">
             <div className="btn-group p-12">
                 <button className="btn btn-active">1</button>
                 <button className="btn">2</button>

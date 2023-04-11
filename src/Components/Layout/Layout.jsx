@@ -1,5 +1,6 @@
 import React from 'react';
 import {NavLink, Outlet} from 'react-router-dom';
+import data from '../../data/movies.json' ; 
 // import image_one from "../../assets/Ci.png";
 
 function Layout() {
