@@ -21,6 +21,10 @@ export default function Description () {
                         country={currentMovie[0].Country} 
                         awards={currentMovie[0].Awards}
             />
+            <iframe className="w-full aspect-video" src={currentMovie[0].Video} title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen >
+        </iframe>
         </div>  
     )
 }
