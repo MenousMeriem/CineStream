@@ -3,7 +3,6 @@ import Card from "../Components/Card/Card"
 import Divider from "../Components/Divider/Divider"
 import Hero from "../Components/Hero/Hero"
 import data from '../data/movies.json'
-import Video from "../Components/Stream/Video"
 
 export default function Accueil() {
 
@@ -11,10 +10,11 @@ export default function Accueil() {
         <div>
             <Hero/>
             <Divider/>
-            <h1 className='text-white text-3xl font-black leading-loose pl-28 pt-10'>
+            <h1 className='text-3xl font-black leading-loose pl-28 pt-10'>
                 Listes des films
             </h1>
-            <div className="pl-28 pt-12 grid gap-x-6 gap-y-6 grid-cols-3">
+            <div className="flex flex-wrap justify-evenly gap-4 ">
+                {/*  grid gap-x-6 gap-y-6 grid-cols-3 */}
                 {
                     data.map((crd,idx)=> (
                         <Card key={idx} 

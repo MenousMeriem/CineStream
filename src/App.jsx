@@ -3,7 +3,7 @@
 import Layout from './Components/Layout/Layout.jsx';
 import Accueil from './Pages/Accueil.jsx' ;
 import Description from './Pages/Description.jsx';
-import Film from './Pages/Film.jsx'
+import Notfound from './Pages/Notfound.jsx'
 
 import { 
   createBrowserRouter, 
@@ -18,7 +18,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<Layout/>}>
         <Route index element={<Accueil/>}/>
         <Route path='Description/:movie' element={<Description/>}/>
-        <Route path='Film' element={<Film/>}/>
+        <Route path='Notfound' element={<Notfound/>}/>
       </Route >
       
 ));

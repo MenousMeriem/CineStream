@@ -8,7 +8,7 @@ import Description from '../../Pages/Description'
 function Divider() {
   return (
         <div className='' >
-            <h1 className=' text-white text-3xl font-black leading-loose pt-10 pb-5 pr-10 pl-10 '>
+            <h1 className='text-3xl font-black leading-loose pt-10 pb-5 pr-10 pl-10 '>
               Films populaires
             </h1>
             <div className="flex flex-col w-full h-full lg:flex-row pt-10 pb-10 pr-10 pl-10 ">

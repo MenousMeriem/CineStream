@@ -6,7 +6,7 @@ function HeroDesc({titre,image}) {
 
   return (
     <div>
-      <div className="hero min-h-screen bg-base-200 text-white">
+      <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row border-2 border-indigo-500/100 rounded-lg ">
           <figure className="image max-w-sm rounded-box shadow-2xl"><img src={image} /></figure>
             <div>
